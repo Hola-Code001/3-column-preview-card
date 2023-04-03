@@ -83,7 +83,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .card-wrapper{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  max-width: 700px;
+  max-width: 900px;
   border-radius: .4rem;
   overflow: hidden;
 }
@@ -170,7 +170,7 @@ p, h1, h2, h3, h4, h5, h6 {
 @media (max-width: 665px){
   .card-wrapper{
     grid-template-columns: 1fr;
-    max-width: 250px;
+    max-width: 400px;
     margin: 2rem 1rem;
   }
 }
